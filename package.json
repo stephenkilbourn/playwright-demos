@@ -1,0 +1,24 @@
+{
+  "name": "playwright-demos",
+  "version": "1.0.0",
+  "description": "demo of playwright features against [Real World App](https://github.com/cypress-io/cypress-realworld-app)",
+  "main": "index.js",
+  "scripts": {
+    "test:headed": "playwright test --headed --workers 1",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenkilbourn/playwright-demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenkilbourn/playwright-demos/issues"
+  },
+  "homepage": "https://github.com/stephenkilbourn/playwright-demos#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  }
+}

@@ -1,3 +1,9 @@
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/storage/
+
 # Logs
 logs
 *.log
@@ -102,3 +108,6 @@ dist
 
 # TernJS port file
 .tern-port
+/test-results/
+/playwright-report/
+/playwright/.cache/
